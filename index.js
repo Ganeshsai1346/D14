@@ -11,13 +11,10 @@ function displayNumbers() {
 }
 
 function changeRandomNumbers() {
-  const randoms = Math.floor(Math.random() * 76) + 1;
+  const randoms = Math.floor(Math.random() * 76, 1);
   console.log(randoms);
-}
-
-function highlightRandomNumber(event) {
-  let clickedRandom = event.target;
-  clickedRandom.classList.add("selected");
+  let randomClicked = document.querySelectorAll(".number");
+  randomClicked[randoms - 1].style.backgroundColor = "blue";
 }
 
 function executeOnLoad() {
