@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(16, 19, 53);
+  background-color: rgb(48, 180, 11);
   color: white;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -12,21 +12,30 @@ body {
 
 #numbersArea {
   display: inline-block;
-  text-align: left;
-  border: 3px solid rgb(140, 60, 140);
+  border: 3px solid rgb(222, 19, 63);
   padding: 12px;
   border-radius: 8px;
-  max-width: 500px;
+  max-width: 1000px;
 }
 .number {
   border-radius: 10px;
   text-align: center;
   font-size: larger;
   margin: 2px;
-  height: 100px;
-  width: 100px;
-  line-height: 100px;
-  border: 2px solid rgb(140, 60, 140);
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  border: 2px solid rgb(188, 23, 23);
   display: inline-block;
+  cursor: pointer;
+}
+#buttonElement {
+  padding: 20px;
+}
+button {
+  background-color: rgb(142, 97, 26);
+  padding: 10px;
+  font-size: larger;
+  border-radius: 10px;
   cursor: pointer;
 }
