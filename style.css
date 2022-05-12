@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(16, 19, 53);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+#container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#numbersArea {
+  display: inline-block;
+  text-align: left;
+  border: 3px solid rgb(140, 60, 140);
+  padding: 12px;
+  border-radius: 8px;
+  max-width: 500px;
+}
+.number {
+  border-radius: 10px;
+  text-align: center;
+  font-size: larger;
+  margin: 2px;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  border: 2px solid rgb(140, 60, 140);
+  display: inline-block;
+  cursor: pointer;
+}
